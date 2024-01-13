@@ -6,16 +6,23 @@
 
 ## Table des matières
 
-- [Introduction](#introduction)
-- [Fonctionnalités](#fonctionnalités)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
+- [Introduction](#Introduction)
+- [Technologies utilisées](#Technologies utilisées)
+- [Fonctionnalités](#Fonctionnalités)
+- [Installation](#Installation)
+- [Utilisation](#Utilisation)
 
 ## Introduction
 
 Football Vision App est une application de vision par ordinateur basée sur le travail de Jac99 (https://github.com/jac99/FootAndBall). Elle utilise Pytorch et OpenCV pour effectuer la détection d'objets dans des vidéos. Notre projet vise à étendre les fonctionnalités de cette application et à l'intégrer à une interface web via un cadre architectural, en utilisant Django.
 
 <img src="https://cdn.discordapp.com/attachments/1183508687923453956/1193901735861829713/homepage.png?ex=65ae66a3&is=659bf1a3&hm=8c8cd34d4ff13ff30957fef89cfe21f6db9d5c6734e1a46966cd440ded5d1a26&" alt="homepage">
+
+## Technologies utilisées
+
+- Django 
+- Pytorch
+- OpenCV
 
 ## Fonctionnalités
 
