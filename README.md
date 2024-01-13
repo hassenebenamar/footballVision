@@ -7,7 +7,7 @@
 ## Table des matières
 
 - [Introduction](#Introduction)
-- [Technologies Utilisées](#Technologies utilisées)
+- [Technologies](#Technologies Utilisées)
 - [Fonctionnalités](#Fonctionnalités)
 - [Installation](#Installation)
 - [Utilisation](#Utilisation)
