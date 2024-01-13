@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload page</title>
+</head>
+<body>
+    <h2>Please upload a file (supported file types : mp4, avi)</h2>
+    <p>The processing of the file might take a certain time. After uploading your file,
+        please wait until a download popup appears on your screen.</p>
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+    <form method="post" action="{% url 'upload_page' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+    <!-- Logout form -->
+    <br>
+    <form method="post" action="{% url 'logout' %}">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+<h2>Welcome to your dashboard ! You can either select football vision or another ML task.</h2>
+<div>
+    <form method="post" action="{% url 'upload_page' %}">
+        {% csrf_token %}
+        <button type="submit" name="module_type">Football Vision module</button>
+    </form>
+
+    <form method="post" action="{% url 'upload_pageML' %}">
+        {% csrf_token %}
+        <button type="submit" name="module_type" >Machine Learning module</button>
+    </form>
+
+
+</div>
+<!-- Logout form -->
+<br>
+<form method="post" action="{% url 'logout' %}">
+    {% csrf_token %}
+    <button type="submit">Logout</button>
+</form>
+</body>
+</html>
