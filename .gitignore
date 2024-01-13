@@ -1,0 +1,16 @@
+#virtual env
+django-venv-windows
+django-venv
+
+#media
+footballVision/footballVisionApp/footAndBallGit/data
+footballVision/footballVisionApp/footAndBallGit/out_video.avi
+footballVision/footballVisionApp/footAndBallGit/images
+footballVision/footballVisionApp/static/assets
+footballVision/media
+
+#idea
+footballVision/footballVisionApp/footAndBallGit/.idea
+
+#db
+footballVision/db.sqlite3
