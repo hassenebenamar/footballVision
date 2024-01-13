@@ -51,6 +51,8 @@ Ensuite, lancer les commandes suivantes :
 ```bash
 cd footballVision
 python manage.py runserver
+python manage.py migrate #will create the db.sqlite3
+python manage.py createsuperuser  # If needed
 ```
 
 Cette application utilise Pytorch. Bien qu'il soit possible d'entraîner le modèle soi-même, il est recommandé d'utiliser les poids déjà existants pour des raisons de temps et de performance.
