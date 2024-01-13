@@ -7,7 +7,7 @@
 ## Table des matières
 
 - [Introduction](#Introduction)
-- [Technologies](#Technologies Utilisées)
+- [Technologies](#Technologies)
 - [Fonctionnalités](#Fonctionnalités)
 - [Installation](#Installation)
 - [Utilisation](#Utilisation)
@@ -18,7 +18,7 @@ Football Vision App est une application de vision par ordinateur basée sur le t
 
 <img src="https://cdn.discordapp.com/attachments/1183508687923453956/1193901735861829713/homepage.png?ex=65ae66a3&is=659bf1a3&hm=8c8cd34d4ff13ff30957fef89cfe21f6db9d5c6734e1a46966cd440ded5d1a26&" alt="homepage">
 
-## Technologies Utilisées
+## Technologies
 
 - Django 
 - Pytorch
