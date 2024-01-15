@@ -47,7 +47,7 @@ myenv/scripts/activate
 Installez les packages nécessaires :
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt #this file in the in footballVision folder
 ```
 
 Il est possible que certains packages ne s'installent pas via la commande au dessus.
